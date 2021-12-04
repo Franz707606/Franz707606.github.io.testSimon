@@ -5,11 +5,16 @@
 
 <h1>
    <font color="red" size="7"
-     <p id="frase">ccccc</p> 
+     <p id="frase"></p> 
    </font>
 </h1>
 
+<button type="button" style="width:200px; height:67px" onclick="RichiamoFunzione();">  
+   Provami   
+</button>
+
 <script>
+function RichiamoFunzione() {
 var txt ="";
 var c= confirm("cosa faccio?");
 if (c ==true)
@@ -20,5 +25,6 @@ else {
 txt ="non va bene";
 }
 document.getElementById("frase").innerHTML = txt ;
+}
   </script>
 </head>

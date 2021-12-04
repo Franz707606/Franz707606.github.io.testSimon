@@ -1,8 +1,19 @@
 <title>DEMO</title>
 <head>
-<h1>Ciao sono un Test
-<h2> Come dicevo...sono un test
-  <script> alert("cosa faccio?");
+<h1>Ciao sono un Test</h1>
+<h2> Come dicevo...sono un test </h2>
+<p id="frase">ccccc</p>
+
+<script>
+var txt ;
+var c= confirm("cosa faccio?");
+if (c ==true)
+{
+txt = "ciao" ;
+} 
+else {
+txt ="non va bene";
+}
+document.getElementById("frase").innerHTML = txt ;
   </script>
-  <h3> Buongiorno
 </head>
